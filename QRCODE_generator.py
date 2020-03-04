@@ -23,7 +23,7 @@ def QRcodeGenerate():
 
     if qrString!='':
         qrGenerate=pyqrcode.create(qrString)
-        path="/home/bhushan/Documents/python/qrcode/"
+        path="PATH" #eg: /home/bhushan/Documents/python/qrcode/
         name=path+qrString+'.png'
 
         qrGenerate.png(name,scale=10)
